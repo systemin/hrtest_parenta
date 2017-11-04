@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hrtest_common" />
+        <module name="hrtest_dao" />
+        <module name="hrtest_entity" />
+        <module name="hrtest_service" />
+        <module name="hrtest_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hrtest_common" target="1.8" />
+      <module name="hrtest_dao" target="1.8" />
+      <module name="hrtest_entity" target="1.8" />
+      <module name="hrtest_parent" target="1.8" />
+      <module name="hrtest_service" target="1.8" />
+      <module name="hrtest_web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
